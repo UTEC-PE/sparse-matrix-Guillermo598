@@ -159,7 +159,7 @@ class Matrix {
             Matrix<T>* c = new Matrix(columns,rows);
             for (int i = 0; i < columns; i++){
                 for (int j = 0; j < rows; j++){
-                    c->set(columns - (i + 1),rows - (j + 1), this->operator()(i, j));
+                    c->set(j, i, this->operator()(i, j));
                 }
             }
             return *c;
