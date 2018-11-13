@@ -1,0 +1,3 @@
+D:/Documents/GitHub/sparse-matrix-Guillermo598/cmake-build-debug/CMakeFiles/sparse-matrix-Guillermo598.dir
+D:/Documents/GitHub/sparse-matrix-Guillermo598/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documents/GitHub/sparse-matrix-Guillermo598/cmake-build-debug/CMakeFiles/rebuild_cache.dir
