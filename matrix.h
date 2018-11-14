@@ -156,7 +156,7 @@ class Matrix {
                 cout << "Tamanios incompatibles" << endl;
         };
         Matrix<T> transposed(){
-            Matrix<T>* c = new Matrix(columns,rows);
+            Matrix<T>* c = new Matrix(rows, columns);
             for (int i = 0; i < columns; i++){
                 for (int j = 0; j < rows; j++){
                     c->set(j, i, this->operator()(i, j));
